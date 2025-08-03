@@ -1,30 +1,3 @@
-# 🛡️ Router Session Keeper
-
-Script JavaScript untuk menjaga sesi login tetap aktif pada halaman admin router (ZTE dan Huawei), mencegah auto-logout akibat timeout. Cukup copy-paste script ke DevTools Console browser (Chrome) dan nikmati pengalaman konfigurasi router tanpa gangguan logout.
-
----
-
-## 📌 Fitur
-
-- Menjaga sesi tetap aktif secara otomatis (auto-refresh atau keep-alive).
-- Mendukung router ZTE dan Huawei.
-- Menampilkan *toast* atau notifikasi kecil di layar sebagai umpan balik.
-- Secara dinamis menampilkan judul halaman dan URL sebagai bagian dari notifikasi.
-- Dapat disesuaikan dengan router lain.
-
----
-
-## 🧪 Cara Pakai
-
-### 1. Akses router dengan cara biasa menggunakan alamat ip sesuai router
-- contoh: `http://192.168.100.1`
-
-### 2. Tekan `F12` untuk membuka **Developer Tools**, lalu ke tab **Console**.
-
-### 3. Copy-paste salah satu script berikut:
-
-#### script
-```js
 (() => {
   const keepAliveURL = window.location.href.split("#")[0];
   const pageTitle = document.title || "Router Session";
@@ -68,7 +41,3 @@ Script JavaScript untuk menjaga sesi login tetap aktif pada halaman admin router
 })();
 
 // yang butuh jasa perbaikan rumah dan bangun baru atau renovasi hub via wa only : 082140014494
-```
----
-
-
