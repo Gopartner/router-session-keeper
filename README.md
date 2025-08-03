@@ -71,4 +71,5 @@ Script JavaScript untuk menjaga sesi login tetap aktif pada halaman admin router
 ```
 ---
 
-
+🤝 Kredit
+Proyek ini dikembangkan oleh yudibilly dengan bantuan ChatGPT dari OpenAI sebagai asisten teknis dan ide.
